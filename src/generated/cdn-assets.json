@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "files": {
+    "/Albumo Text Logo.png": {
+      "key": "static/f92be0be8db79ecd704e/Albumo Text Logo.png",
+      "sha256": "f92be0be8db79ecd704ed5c8ab926f9594c712cb74f164c3118e0a8c9c1ccb96",
+      "bytes": 66488,
+      "contentType": "image/png"
+    },
+    "/file.svg": {
+      "key": "static/2b67812c325c199a0253/file.svg",
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "bytes": 391,
+      "contentType": "image/svg+xml"
+    },
+    "/globe.svg": {
+      "key": "static/b614b9bf183925957661/globe.svg",
+      "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "bytes": 1035,
+      "contentType": "image/svg+xml"
+    },
+    "/hero1.png": {
+      "key": "static/fc67f81884a40d4eed60/hero1.png",
+      "sha256": "fc67f81884a40d4eed603fb75e575757531a99d6a9a2b8320d9ab4998f7173ef",
+      "bytes": 365273,
+      "contentType": "image/png"
+    },
+    "/next.svg": {
+      "key": "static/55995dfad6ecb4945a1e/next.svg",
+      "sha256": "55995dfad6ecb4945a1e856ddca03c5e16aa5bf13fd21b4df6a74ae79357bcfc",
+      "bytes": 1375,
+      "contentType": "image/svg+xml"
+    },
+    "/vercel.svg": {
+      "key": "static/f081337b2fee635b455b/vercel.svg",
+      "sha256": "f081337b2fee635b455b63275406a3e7f39d6a014e25ad90dab5a67e62a12ac4",
+      "bytes": 128,
+      "contentType": "image/svg+xml"
+    },
+    "/window.svg": {
+      "key": "static/644768c4aaeb4767bce2/window.svg",
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "bytes": 385,
+      "contentType": "image/svg+xml"
+    },
+    "/vishal-img.png": {
+      "key": "website/03ed59b627c985456921/vishal-img.png",
+      "sha256": "03ed59b627c98545692162a74ef958979caee8da140db02f22bab0b895aaa324",
+      "bytes": 288596,
+      "contentType": "image/png"
+    },
+    "/Icons/gift-icon.svg": {
+      "key": "website/c38c51cceea9579cfaed/Icons/gift-icon.svg",
+      "sha256": "c38c51cceea9579cfaedf413d56cb43b6ecac885ed3c8d3b7f1c4605c1a4c12a",
+      "bytes": 11577,
+      "contentType": "image/svg+xml"
+    },
+    "/Icons/photo-book-icon.svg": {
+      "key": "website/352728b739870ed69dea/Icons/photo-book-icon.svg",
+      "sha256": "352728b739870ed69dea613b4badec4623b0c461e457720cd18cf517f19077f0",
+      "bytes": 4822,
+      "contentType": "image/svg+xml"
+    },
+    "/Icons/wall-art-icon.svg": {
+      "key": "website/200ca80c491718b07fa2/Icons/wall-art-icon.svg",
+      "sha256": "200ca80c491718b07fa28256f68c568ae5054cdce7d8a464b3bb1a6b7dd846d8",
+      "bytes": 17357,
+      "contentType": "image/svg+xml"
+    },
+    "/images/about/hero-poster.webp": {
+      "key": "website/d852f11404a98836339a/images/about/hero-poster.webp",
+      "sha256": "d852f11404a98836339a73759ad0e3f745f7e26d4ec4e1243d507b6cee63b6ab",
+      "bytes": 213084,
+      "contentType": "image/webp"
+    },
+    "/images/home/poster-coast.webp": {
+      "key": "website/d852f11404a98836339a/images/home/poster-coast.webp",
+      "sha256": "d852f11404a98836339a73759ad0e3f745f7e26d4ec4e1243d507b6cee63b6ab",
+      "bytes": 213084,
+      "contentType": "image/webp"
+    },
+    "/images/home/poster-family.webp": {
+      "key": "website/f7919bafb9e3c682b8a9/images/home/poster-family.webp",
+      "sha256": "f7919bafb9e3c682b8a9c7812c7e99c40c3e762ad7d3621107dd1c29a8c54eae",
+      "bytes": 164384,
+      "contentType": "image/webp"
+    },
+    "/images/home/poster-mountains.webp": {
+      "key": "website/7a9b9e1eb8b59c9f8e61/images/home/poster-mountains.webp",
+      "sha256": "7a9b9e1eb8b59c9f8e61dde0a4f6ad62c9c4371283a15ac18749890dced1df1d",
+      "bytes": 262846,
+      "contentType": "image/webp"
+    },
+    "/occasions/oc_travel.png": {
+      "key": "website/dabd31318b99607721a9/occasions/oc_travel.png",
+      "sha256": "dabd31318b99607721a9e813265fdc20c212d12e4dd0af2d102b9b66a4eff9b7",
+      "bytes": 651359,
+      "contentType": "image/png"
+    }
+  }
+}

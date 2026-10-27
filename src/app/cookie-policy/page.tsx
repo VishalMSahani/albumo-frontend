@@ -1,0 +1,10 @@
+import type { Metadata } from "next";
+import PolicyPage from "@/features/legal/PolicyPage";
+import { policies } from "@/features/legal/policies";
+export const metadata: Metadata = {
+  title: policies.cookiePolicy.title,
+  description: policies.cookiePolicy.summary,
+};
+export default function Page() {
+  return <PolicyPage policyKey="cookiePolicy" />;
+}

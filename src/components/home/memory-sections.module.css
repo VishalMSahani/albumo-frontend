@@ -1,0 +1,329 @@
+.stories,
+.journey {
+  position: relative;
+  isolation: isolate;
+  padding: 88px 0;
+}
+
+.stories {
+  background:
+    radial-gradient(ellipse at 16% 55%, var(--color-rose), transparent 55%),
+    radial-gradient(ellipse at 90% 70%, var(--color-sage), transparent 55%),
+    var(--color-surface);
+}
+
+.storyGrid {
+  display: grid;
+  gap: 24px;
+  align-items: start;
+  margin-top: 52px;
+}
+
+.storyCard,
+.chapterContent {
+  border: 1px solid rgb(255 255 255 / 90%);
+  background: rgb(255 255 255 / 58%);
+  box-shadow:
+    inset 0 1px 0 white,
+    inset 0 -1px 0 rgb(255 255 255 / 55%),
+    0 12px 36px rgb(58 46 42 / 5%);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+}
+
+.storyCard {
+  padding: 12px;
+  border-radius: 30px;
+  transition:
+    transform 450ms ease,
+    box-shadow 450ms ease;
+}
+
+.photo {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 21px;
+}
+
+.photo img {
+  object-position: center 43%;
+}
+
+.photoLabel,
+.heart,
+.bookTag {
+  border: 1px solid rgb(255 255 255 / 75%);
+  background: rgb(255 255 255 / 75%);
+  box-shadow:
+    inset 0 1px 0 white,
+    0 4px 14px rgb(58 46 42 / 6%);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+}
+
+.photoLabel {
+  position: absolute;
+  bottom: 16px;
+  left: 16px;
+  max-width: calc(100% - 32px);
+  padding: 9px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.heart {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  color: var(--color-berry);
+  font-size: 24px;
+}
+
+.note {
+  position: relative;
+  padding: 30px 14px 8px;
+}
+.quoteMark {
+  position: absolute;
+  top: 9px;
+  right: 12px;
+  font-size: 90px;
+  line-height: 1;
+  color: var(--color-berry);
+  opacity: 0.09;
+}
+.initial {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--color-rose);
+  color: var(--color-berry);
+  font-size: 13px;
+}
+.letter {
+  margin-top: 22px;
+  border-top: 1px solid var(--color-line);
+  padding-top: 6px;
+}
+.letter summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  cursor: pointer;
+  list-style: none;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--color-berry);
+  border-radius: 8px;
+}
+.letter summary::-webkit-details-marker {
+  display: none;
+}
+.letter summary:focus-visible {
+  outline: 2px solid var(--color-berry);
+  outline-offset: 4px;
+}
+.plus {
+  font-size: 22px;
+  transition: transform 250ms ease;
+}
+.openLabel {
+  display: none;
+}
+.letter[open] .openLabel {
+  display: inline;
+}
+.letter[open] .closedLabel {
+  display: none;
+}
+.letter[open] .plus {
+  transform: rotate(45deg);
+}
+
+.journey {
+  background:
+    radial-gradient(ellipse at 12% 55%, var(--color-rose), transparent 50%),
+    radial-gradient(ellipse at 95% 35%, var(--color-sand), transparent 55%);
+}
+.journeyGrid {
+  display: grid;
+  gap: 52px;
+  align-items: start;
+}
+.bookScene {
+  position: relative;
+  margin: 36px 0 28px;
+  padding: 14px 10px 30px;
+}
+.book {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  aspect-ratio: 1.5;
+  padding: 12px;
+  border-radius: 8px 18px 18px 8px;
+  background: var(--color-paper);
+  box-shadow:
+    0 3px 0 var(--color-sand),
+    0 6px 0 white,
+    0 8px 0 var(--color-line),
+    0 22px 42px rgb(58 46 42 / 12%);
+  transform: rotate(-4deg);
+}
+.book::after {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 50%;
+  width: 18px;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, transparent, rgb(58 46 42 / 9%), transparent);
+  pointer-events: none;
+}
+.bookPhoto {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+.bookPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  background: var(--color-surface);
+}
+.bookTag {
+  position: relative;
+  width: fit-content;
+  max-width: 95%;
+  margin: -1px auto 0;
+  padding: 12px 18px;
+  border-radius: 999px;
+  font-size: 11px;
+  text-align: center;
+}
+.chapters {
+  position: relative;
+  display: grid;
+  gap: 24px;
+}
+.chapters::before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  bottom: 24px;
+  left: 23px;
+  border-left: 1px dashed var(--color-berry);
+  opacity: 0.25;
+}
+.chapter {
+  position: relative;
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  gap: 18px;
+}
+.chapterNumber {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: 48px;
+  border: 1px solid var(--color-line);
+  border-radius: 50%;
+  background: var(--color-paper);
+  color: var(--color-berry);
+  box-shadow: inset 0 0 0 5px var(--color-rose);
+  font-size: 12px;
+}
+.chapterContent {
+  border-radius: 26px;
+  padding: 26px;
+}
+.chapterFoot {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid var(--color-line);
+}
+
+@media (min-width: 768px) {
+  .storyGrid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .storyWrap:nth-child(2) {
+    padding-top: 30px;
+  }
+  .storyWrap:first-child .storyCard {
+    rotate: -1.5deg;
+  }
+  .storyWrap:last-child .storyCard {
+    rotate: 1.5deg;
+  }
+  .photo {
+    height: clamp(210px, 22vw, 290px);
+  }
+}
+
+@media (min-width: 1024px) {
+  .journeyGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+  .journeyIntro {
+    position: sticky;
+    top: 145px;
+  }
+  .note {
+    padding-inline: 22px;
+  }
+}
+
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .storyCard:hover {
+    transform: translateY(-5px);
+    box-shadow:
+      inset 0 1px 0 white,
+      0 18px 44px rgb(58 46 42 / 9%);
+  }
+}
+
+@media (max-width: 639px) {
+  .stories,
+  .journey {
+    padding: 64px 0;
+  }
+  .chapter {
+    grid-template-columns: 34px minmax(0, 1fr);
+    gap: 12px;
+  }
+  .chapterNumber {
+    height: 34px;
+    font-size: 10px;
+  }
+  .chapters::before {
+    left: 16px;
+  }
+  .chapterContent {
+    padding: 22px 18px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .storyCard,
+  .plus {
+    transition: none;
+  }
+}
